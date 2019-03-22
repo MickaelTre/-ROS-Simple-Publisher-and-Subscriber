@@ -1,4 +1,4 @@
-# -ROS-Simple-Publisher-and-Subscriber
+# ROS-Simple-Publisher-and-Subscriber
 A simple ROS project, with a publisher node, publishing two ints, and a subscriber node publishing the sum of the two ints.
 
 ## Getting Started
