@@ -15,5 +15,8 @@ and: rosrun rostopic echo /two_ints
 ### Prerequisites
 You need a complete installation of ROS.
 
+### Results
+![Image of a running example](/execution.png)
+
 ## Author
 * **Mickaël Trezzy**
