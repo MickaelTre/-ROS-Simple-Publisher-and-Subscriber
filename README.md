@@ -8,8 +8,8 @@ Download the folders and add them to your catkin folder.
 Start your roscore: roscore
 In another terminal starts the two_int_talker: rosrun two_int_talker two_int_talker.py
 In another terminal starts the sum_publisher: rosrun sum_publisher sum.py
-Then you can listen to the topics with rostopic: rosrun rostopic echo /sum
-and: rosrun rostopic echo /two_ints
+Then you can listen to the topics with rostopic: rosrun rostopic rostopic echo /sum
+and: rosrun rostopic rostopic echo /two_ints
 ```
 
 ### Prerequisites
