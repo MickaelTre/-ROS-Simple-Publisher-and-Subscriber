@@ -4,19 +4,33 @@ A simple ROS project, with a publisher node, publishing two ints, and a subscrib
 ## Getting Started
 Download the folders and add them to your catkin folder.
 
+## Prerequisites
+You need a complete installation of ROS.
+
+### Python execution
 ```
 Start your roscore: roscore
 In another terminal starts the two_int_talker: rosrun two_int_talker two_int_talker.py
 In another terminal starts the sum_publisher: rosrun sum_publisher sum.py
-Then you can listen to the topics with rostopic: rosrun rostopic rostopic echo /sum
-and: rosrun rostopic rostopic echo /two_ints
+
+Then you can listen to the topics:
+rostopic echo /two_ints
+rostopic echo /sum
 ```
-
-### Prerequisites
-You need a complete installation of ROS.
-
-### Results
+#### Results
 ![Image of a running example](/execution.png)
+
+### C++ execution
+```
+First execute in your catkin folder: catkin_make
+Then start your roscore: roscore
+In another terminal starts the two_int_talker: rosrun CPP twoInts
+In another terminal starts the sum_publisher: rosrun CPP sum
+
+Then you can listen to the topics:
+rostopic echo /two_ints
+rostopic echo /sum
+```
 
 ## Author
 * **Mickaël Trezzy**
